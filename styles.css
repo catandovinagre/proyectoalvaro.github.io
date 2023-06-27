@@ -94,7 +94,7 @@ a:hover::before {
 
 .fade-in {
   opacity: 0;
-  transition: opacity 0.5s ease;
+  transition: opacity 2s ease-in-out; /* Ajusta la duración y la función de tiempo */
 }
 
 .fade-in.visible {

@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.section > h1 {
+    margin: auto;
+}
+
+h1 {
+    font-size: 4em;
+    color: #333;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black; /* Cambio: fondo negro */
+    z-index: 2;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+li {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white; /* Cambio: texto blanco */
+    padding: 10px;
+}
+
+a:hover {
+    position: relative;
+    color: white; /* Cambio: mantener el color blanco */
+}
+
+a:hover::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 40%;
+    border-radius: 30%; /* Cambio: elipse más aplanada */
+    box-shadow: 0 0 0 2px white; /* Cambio: grosor reducido */
+    z-index: -1;
+}
+
+
+.section {
+    /* Elimina las propiedades de tamaño y margen de las imágenes */
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background-size: cover; /* Ajusta el tamaño de las imágenes de fondo */
+    background-position: center; /* Ajusta la posición */
+}
+
+.section-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #fff;
+    font-size: 3em;
+}
+
+
+#home {
+    background-image: url('grad1.png');
+}
+
+#about {
+    background-image: url('grad2.png');
+}
+
+#services {
+    background-image: url('grad3.png');
+}
+
+#comment {
+    background-image: url('grad4.png');
+}
+
+#contact {
+    background-image: url('grad5.png');
+}

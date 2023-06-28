@@ -4,7 +4,7 @@ body {
 }
 
 .section {
-    height: calc(100vh - 50px);
+    height: calc(110vh - 110px);
     display: flex;
     align-items: center;
     justify-content: center;

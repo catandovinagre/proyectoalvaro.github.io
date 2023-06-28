@@ -74,7 +74,7 @@ a:hover::before {
 
 .section {
     /* Elimina las propiedades de tamaño y margen de las imágenes */
-    height: calc(70vh - 100px);
+    height: calc(90vh - 100px);
     display: flex;
     align-items: center;
     justify-content: center;

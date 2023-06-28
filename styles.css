@@ -38,6 +38,7 @@ ul {
     margin: 0;
     padding: 0;
     height: 100%;
+    flex-wrap: wrap;
 }
 
 li {
@@ -48,6 +49,7 @@ a {
     text-decoration: none;
     color: white; /* Cambio: texto blanco */
     padding: 10px;
+    white-space: nowrap; /* Nuevo */
 }
 
 a:hover {

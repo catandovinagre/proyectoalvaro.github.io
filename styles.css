@@ -101,6 +101,12 @@ a:hover::before {
   opacity: 1;
 }
 
+.text-field {
+    width: 300px;
+    height: 200px;
+    resize: none; /* Evita la redimension del textarea */
+}
+
 #home {
     background-image: url('grad1.png');
 }
